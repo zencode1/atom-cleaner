@@ -1,0 +1,8 @@
+**/Win32
+
+*.~*
+*.dsk
+*.identcache
+*.local
+*.res
+*.tvsconfig
