@@ -41,7 +41,6 @@ object Form2: TForm2
     Anchors = [akLeft, akTop, akRight, akBottom]
     ScrollBars = ssBoth
     TabOrder = 2
-    ExplicitWidth = 608
   end
   object PidBtn: TButton
     Left = 320
@@ -83,5 +82,13 @@ object Form2: TForm2
     EditLabel.Caption = 'Atom Index (hex):'
     TabOrder = 6
     Text = ''
+  end
+  object CheckBox1: TCheckBox
+    Left = 32
+    Top = 1
+    Width = 132
+    Height = 17
+    Caption = 'Clean All (dangerous)'
+    TabOrder = 7
   end
 end
